@@ -1,20 +1,18 @@
 import React from 'react';
-import { View, StyleSheet } from 'react-native';
-import Footer from './src/Components/Footer';
-import Header from './src/Components/Header';
+import { View, StyleSheet} from 'react-native'
+
+import Initial from './src/views/Initial'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Header/>
-      <Footer/>
+      <Initial/> 
     </View>
   )
 }
 
 const styles = StyleSheet.create({
-  container:{
-    flex: 1,
-    justifyContent: 'space-between'
-  }
+  container: {
+    flex: 1
+  },
 })
