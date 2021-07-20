@@ -1,5 +1,6 @@
 import React from 'react'
 import {View, Text} from 'react-native'
+import styles from './styles'
 
 import Header from '../../Components/Header'
 
@@ -8,9 +9,11 @@ function Home({navigation}){
         navigation.navigate('Initial')
     }
     return(
-        <View>
+        <View style={styles.container}>
             <Header navigationInitial={navigationInitial}/>
-            <Text>Home</Text>
+            <View style={styles.containerHome}>
+            
+            </View>
         </View>
     )
 } 
