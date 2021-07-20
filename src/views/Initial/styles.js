@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
         left: 0,
         right: 0,
         top: 0,
-        height: '100%'
+        height: 300
     }, 
     containerLogoButton:{
         flex: 1,
@@ -67,7 +67,8 @@ const styles = StyleSheet.create({
     },
     imgXboxControll:{
         width: '100%',
-        position: 'absolute'
+        position: 'absolute',
+        bottom: -20
     }
 })
 
