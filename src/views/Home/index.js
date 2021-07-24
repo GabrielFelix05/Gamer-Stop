@@ -30,6 +30,7 @@ function Home({navigation}){
                     <Platform icon={xbox}/>
                     <Platform icon={nintendoswitch}/>
                 </ScrollView>  
+                
             </View>
         </View>
     )

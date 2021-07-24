@@ -2,8 +2,6 @@ import React from 'react'
 import {View, Image} from 'react-native'
 import styles from './styles'
 
-import playstation from '../../Assets/playstation.png'
-
 function Platform({icon, select}){
     return(
         <View style={styles.container}>            
