@@ -12,12 +12,22 @@ const styles = StyleSheet.create({
         borderTopRightRadius: 20,
         position: 'absolute',
         left: 0,
-        top: 115
+        top: 115,
+        paddingTop: 40
+    },
+    title:{
+        fontSize: 30,
+        fontWeight: 'bold',
+        paddingLeft: 20
     },
     teste:{
         width: 30,
         height: 30,
         backgroundColor: '#fff'
+    },
+    select:{
+        borderWidth: 2,
+        borderColor: '#C83C3C'
     }
 })
 
