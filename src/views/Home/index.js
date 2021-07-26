@@ -25,47 +25,47 @@ function Home({navigation}){
                 <ScrollView 
                     showsVerticalScrollIndicator={false}
                 >
-                <Text style={styles.title}>choose your platform</Text>
-                
-                <View style={styles.containerScrollView}>
-                    <ScrollView 
-                        horizontal={true}
-                        showsHorizontalScrollIndicator={false}
-                    >
-                        <Platform icon={playstation} select={styles.select}/>
-                        <Platform icon={xbox}/>
-                        <Platform icon={nintendoswitch}/>
-                        <Platform icon={xbox}/>
-                        <Platform icon={nintendoswitch}/>
-                        <Platform icon={xbox}/>
-                        <Platform icon={nintendoswitch}/>
-                    </ScrollView>  
-                </View>
-                
-                <View style={styles.containerGames}>
-                    <Text style={styles.title}>Games</Text>
-                    <Text style={styles.subTitle}>select a produts</Text>
+                    <Text style={styles.title}>choose your platform</Text>
                     
-                    <ScrollView
-                        horizontal={true}
-                        showsHorizontalScrollIndicator={false}
-                    >
-                        <Games img={pes} name={"PES 2021"}/>
-                        <Games img={cyberpunk} name={"Cyberpunk"} selectGames={styles.selectGames}/>
-                        <Games img={pes} name={"PES 2021"}/>
-                        <Games img={cyberpunk} name={"Cyberpunk"}/>
-                    </ScrollView>
+                    <View style={styles.containerScrollView}>
+                        <ScrollView 
+                            horizontal={true}
+                            showsHorizontalScrollIndicator={false}
+                        >
+                            <Platform icon={playstation} select={styles.select}/>
+                            <Platform icon={xbox}/>
+                            <Platform icon={nintendoswitch}/>
+                            <Platform icon={xbox}/>
+                            <Platform icon={nintendoswitch}/>
+                            <Platform icon={xbox}/>
+                            <Platform icon={nintendoswitch}/>
+                        </ScrollView>  
+                    </View>
+                    
+                    <View style={styles.containerGames}>
+                        <Text style={styles.title}>Games</Text>
+                        <Text style={styles.subTitle}>select a produts</Text>
+                        
+                        <ScrollView
+                            horizontal={true}
+                            showsHorizontalScrollIndicator={false}
+                        >
+                            <Games img={pes} name={"PES 2021"}/>
+                            <Games img={cyberpunk} name={"Cyberpunk"} selectGames={styles.selectGames}/>
+                            <Games img={pes} name={"PES 2021"}/>
+                            <Games img={cyberpunk} name={"Cyberpunk"}/> 
+                        </ScrollView>
 
-                    <ScrollView
-                        horizontal={true}
-                        showsHorizontalScrollIndicator={false}
-                    >
-                        <Games img={god} name={"God of war"}/>
-                        <Games img={fortnite} name={"Fortnite"}/>
-                        <Games img={god} name={"God of war"}/>
-                        <Games img={fortnite} name={"Fortnite"}/>
-                    </ScrollView>
-                </View>
+                        <ScrollView
+                            horizontal={true}
+                            showsHorizontalScrollIndicator={false}
+                        >
+                            <Games img={god} name={"God of war"}/>
+                            <Games img={fortnite} name={"Fortnite"}/>
+                            <Games img={god} name={"God of war"}/>
+                            <Games img={fortnite} name={"Fortnite"}/>
+                        </ScrollView>
+                    </View>
                 </ScrollView>
             </View>
         </View>
