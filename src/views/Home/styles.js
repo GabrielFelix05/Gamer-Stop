@@ -2,7 +2,8 @@ import {StyleSheet} from 'react-native'
 
 const styles = StyleSheet.create({
     container:{
-        flex: 1
+        flex: 1,
+        paddingBottom: 100
     },
     containerHome:{
         backgroundColor: '#E0E0F8',
@@ -15,19 +16,30 @@ const styles = StyleSheet.create({
         top: 115,
         paddingTop: 40
     },
+    containerScrollView:{
+        marginBottom: 40
+    },  
     title:{
         fontSize: 30,
         fontWeight: 'bold',
         paddingLeft: 20
     },
-    teste:{
-        width: 30,
-        height: 30,
-        backgroundColor: '#fff'
-    },
+    subTitle:{
+        color: '#A19FA1',
+        fontSize: 23,
+        paddingLeft: 20
+    },  
     select:{
         borderWidth: 2,
         borderColor: '#C83C3C'
+    },
+    selectGames:{
+        borderWidth: 3,
+        borderColor: '#17D16D',
+        width: 196,
+    },
+    containerGames:{
+        
     }
 })
 
