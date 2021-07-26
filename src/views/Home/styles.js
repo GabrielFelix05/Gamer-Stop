@@ -3,7 +3,6 @@ import {StyleSheet} from 'react-native'
 const styles = StyleSheet.create({
     container:{
         flex: 1,
-        paddingBottom: 100
     },
     containerHome:{
         backgroundColor: '#E0E0F8',
@@ -39,7 +38,8 @@ const styles = StyleSheet.create({
         width: 196,
     },
     containerGames:{
-        
+        flex: 1,
+        paddingBottom: 100
     }
 })
 
